@@ -11,7 +11,7 @@
         "name": "League of Legends Status",
         "default_title": "",
         "default_icon": {
-            "19": "skin/icon/icon-16.png"
+            "19": "skin/icon/icon-19.png"
         },
         "default_popup": "popup/popup.html"
     },
@@ -26,5 +26,5 @@
         "management",
         "<all_urls>"
     ],
-    "homepage_url": "https://github.com/Doshibu/doshibuLolStatus.git"
+    "homepage_url": "https://github.com/Doshibu/doshibuLolStatus"
 }
