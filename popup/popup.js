@@ -41,7 +41,7 @@ function checkServer() {
 		var isOnline = ''
 		$.getJSON('https://'+ key.toLowerCase() +'.api.riotgames.com/lol/status/v3/shard-data?api_key=64b83c8e-55a1-49b2-99fd-114a7d337435', function(data) {
 		    isOnline = data.services[0].status === 'online' ? 'success' : 'danger';
-		     $('#label1_'+key).attr('class', 'btn btn'+isOnline)
+		     $('#label1_'+key).attr('class', 'btn btn-'+isOnline)
 		});
 	});
 }
